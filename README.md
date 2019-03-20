@@ -1,2 +1,3 @@
 # php-messaging
-Messaging for Event Engine
+
+Event Engine Messaging PHP Package
