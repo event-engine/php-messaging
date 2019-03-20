@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "EventEngine\\Data\\": "src/"
+      "EventEngine\\Messaging\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "EventEngineTest\\Data\\": "tests/"
+      "EventEngineTest\\Messaging\\": "tests/"
     }
   },
   "prefer-stable": true,
