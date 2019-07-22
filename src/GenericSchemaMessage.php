@@ -253,7 +253,7 @@ abstract class GenericSchemaMessage implements Message
 
     public static function assertMessageName($messageName): void
     {
-        if (! \preg_match('/^[A-Za-z0-9_.-\/]+$/', $messageName)) {
+        if (! \preg_match('/^[A-Za-z\/0-9_\.\-\\\\]+$/', $messageName)) {
             throw new RuntimeException('message_name is invalid');
         }
     }
