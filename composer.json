@@ -20,7 +20,7 @@
     "roave/security-advisories": "dev-master",
     "event-engine/php-schema": "^0.1",
     "event-engine/php-engine-utils": "^0.1",
-    "ramsey/uuid" : "^3.6"
+    "ramsey/uuid" : "^3.6|^4.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0",
