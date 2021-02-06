@@ -18,8 +18,8 @@
   "require": {
     "php": "^7.2 || ^8.0",
     "roave/security-advisories": "dev-master",
-    "event-engine/php-schema": "^0.1",
-    "event-engine/php-engine-utils": "^0.1",
+    "event-engine/php-schema": "^0.2",
+    "event-engine/php-engine-utils": "^0.2",
     "ramsey/uuid" : "^3.6|^4.0"
   },
   "require-dev": {
