@@ -18,7 +18,7 @@
   "require": {
     "php": "^7.2 || ^8.0",
     "event-engine/php-schema": "^0.3.0",
-    "event-engine/php-engine-utils": "^0.2.1",
+    "event-engine/php-engine-utils": "^0.2.1 || ^1.0",
     "ramsey/uuid" : "^3.6|^4.0"
   },
   "require-dev": {
