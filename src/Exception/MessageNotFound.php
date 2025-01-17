@@ -20,7 +20,7 @@ class MessageNotFound extends \RuntimeException implements MessagingException
         return new self("Unknown message $messageName");
     }
 
-    public function __construct(string $message = "", Throwable $previous = null)
+    public function __construct(string $message = "", ?Throwable $previous = null)
     {
         parent::__construct($message, 404, $previous);
     }

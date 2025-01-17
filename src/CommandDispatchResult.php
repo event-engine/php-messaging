@@ -43,7 +43,7 @@ final class CommandDispatchResult
         return new self($dispatedCommand);
     }
 
-    private function __construct(Message $dispatchedCommand, string $effectedAggregateId = null, Message ...$recordedEvents)
+    private function __construct(Message $dispatchedCommand, ?string $effectedAggregateId = null, Message ...$recordedEvents)
     {
         $this->dispatchedCommand = $dispatchedCommand;
         $this->effectedAggregateId = $effectedAggregateId;
