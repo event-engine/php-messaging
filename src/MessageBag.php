@@ -77,7 +77,7 @@ final class MessageBag implements Message
      * @param \DateTimeImmutable|null $createdAt
      * @throws \Exception
      */
-    public function __construct(string $messageName, string $messageType, $message, $metadata = [], UuidInterface $messageId = null, \DateTimeImmutable $createdAt = null)
+    public function __construct(string $messageName, string $messageType, $message, $metadata = [], ?UuidInterface $messageId = null, ?\DateTimeImmutable $createdAt = null)
     {
         if (! \in_array($messageType, self::MSG_TYPES)) {
             throw new \InvalidArgumentException('Message type should be one of ' . \implode(', ', self::MSG_TYPES) . ". Got $messageType");
